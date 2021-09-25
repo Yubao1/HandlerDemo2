@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xe.handlerdemo2.MainActivity">
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:text="在子线程中初始化Handler时传入一个空的Looper对象"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:text="同一个线程用不同的Handler发送消息"
+        android:textAllCaps="false"
+        android:onClick="onClick"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
